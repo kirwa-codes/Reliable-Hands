@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reliable Hands - Service Providers</title>
+    <link rel="stylesheet" href="indexcss.cssinit">
+    <script src="https://kit.fontawesome.com/6b9a737bb0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Reliable Hands</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#booking">Book a Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2 id="h2">Reliable Services Provider in Nairobi</h2>
+        <h5>Fast, Affordable, and Professional Services</h5>
+        <button onclick="window.location.href='#booking'">Schedule Service Today</button>
+    </div>
+    
+    <section id="services" class="services-section">
+        <h2 id="heading">Our Services</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/2583028/pexels-photo-2583028.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Plumbing Service">
+                <h3>Plumbing</h3>
+                <p>Plumbing Problems? Consider It Fixed!</p>
+                <button onclick="window.location.href='#booking'">Book</button>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/8487400/pexels-photo-8487400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Electrician Service">
+                <h3>Electrician</h3>
+                <p>Powering Your World, Safely and Efficiently.</p>
+                <button onclick="window.location.href='#booking'">Book</button>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/6566698/pexels-photo-6566698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Landscaping Service">
+                <h3>Landscaping</h3>
+                <p>Landscaping with Passion, Growing with Care.</p>
+                <button onclick="window.location.href='#booking'">Book</button>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/4098761/pexels-photo-4098761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Cleaning Service">
+                <h3>Cleaning</h3>
+                <p>A Clean Home is a Happy Home!</p>
+                <button onclick="window.location.href='#booking'">Book</button>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/3105409/pexels-photo-3105409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Barber Service">
+                <h3>Barber Services</h3>
+                <p>Cuts That Turn Heads.</p>
+                <button onclick="window.location.href='#booking'">Book</button>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/6872176/pexels-photo-6872176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Car Wash Service">
+                <h3>Car Wash</h3>
+                <p>From Dusty to Dazzling!</p>
+                <button onclick="window.location.href='#booking'">Book</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="booking" class="booking-section">
+        <h2 id="booking-title">Book a Service</h2>
+        <form id="bookingForm">
+            <div>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="phone">Your Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+            </div>
+            <div>
+                <label for="service">Select Service:</label><br>
+                <select id="service" name="service" required>
+                    <option value="" disabled selected>Select a service</option>
+                    <option value="plumbing">Plumbing</option>
+                    <option value="electrician">Electrician</option>
+                    <option value="landscaping">Landscaping</option>
+                    <option value="cleaning">Cleaning</option>
+                    <option value="barber">Barber Services</option>
+                    <option value="carwash">Car Wash</option>
+                </select>
+            </div>
+            <div>
+                <label for="date">Preferred Date:</label><br>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="btn-container">
+                <button type="submit" class="submit">Book Now</button>
+            </div>
+        </form>
+    </section>
+
+    <h1 class="testimonial-title">Testimonials</h1>
+    <div class="testimonial-container">
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <h3 class="testimonial-name">John Doe</h3>
+                <p class="testimonial-role">Software Engineer</p>
+                <p class="testimonial-review">"Exceptional service! I called Reliable Hands for a plumbing emergency, and they arrived within the hour. The technician was professional, knowledgeable, and fixed the issue quickly. Fair pricing and excellent customer service—I highly recommend them."</p>
+                <div class="testimonial-stars">
+                    <span class="star-filled">★</span>
+                    <span class="star-filled">★</span>
+                    <span class="star-filled">★</span>
+                    <span class="star-filled">★</span>
+                    <span class="star-filled">★</span>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <h3 class="testimonial-name">Jane Smith</h3>
+                <p class="testimonial-role">Marketing Manager</p>
+                <p class="testimonial-review">"I wanted a beautiful garden but had no idea where to start. Reliable Hands designed and installed the perfect outdoor space for me. Their creativity and expertise exceeded my expectations. I get compliments all the time!"</p>
+                <div class="testimonial-stars">
+                    <span class="star-filled">★</span>
+                    <span class="star-filled">★</span>
+                    <span class="star-filled">★</span>
+                    <span class="star-filled">★</span>
+                    <span class="star-empty">☆</span>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <h3 class="testimonial-name">Michael Johnson</h3>
+                <p class="testimonial-role">Entrepreneur</p>
+                <p class="testimonial-review">"I’ve used Reliable Hands multiple times for deep cleaning, and they never disappoint. The team is punctual, friendly, and leaves my home spotless. Their attention to detail is impressive, and I love how fresh my house feels afterward!"</p>
+                <div class="testimonial-stars">
+                    <span class="star-filled">★</span>
+                    <span class="star-filled">★</span>
+                    <span class="star-filled">★</span>
+                    <span class="star-filled">★</span>
+                    <span class="star-empty">☆</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 id="contact-title">Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>Have a question or need assistance? Reach out to us!</p>
+                <p><strong>Phone:</strong> +254 78709 6679</p>
+                <p><strong>Email:</strong> <a href="mailto:contact@reliablehands.com">contact@reliablehands.com</a></p>
+                <p><strong>Address:</strong> 123 Umoja, Nairobi, Kenya</p>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <div>
+                    <label for="contact-name">Your Name:</label><br>
+                    <input type="text" id="contact-name" name="contact-name" required placeholder="Enter your name">
+                </div>
+                <div>
+                    <label for="contact-email">Your Email:</label><br>
+                    <input type="email" id="contact-email" name="contact-email" required placeholder="Enter your email">
+                </div>
+                <div>
+                    <label for="contact-message">Your Message:</label><br>
+                    <textarea id="contact-message" name="contact-message" required placeholder="Type your message here" rows="5"></textarea>
+                </div>
+                <div class="btn-container">
+                    <button type="submit" class="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Phone: +254 78709 6679</p>
+                <p>Email: contact@reliablehands.com</p>
+                <p>Address: 123 Umoja, Nairobi, Kenya</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <p class="socials">
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <p><a href="#">Privacy Policy</a></p>
+                <p><a href="#">Terms & Conditions</a></p>
+            </div>
+        </div>
+        <p class="footer-copy">© 2025 Reliable Hands. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
